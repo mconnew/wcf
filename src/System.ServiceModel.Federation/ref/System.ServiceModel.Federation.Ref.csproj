@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <StrongNameKeyId>Microsoft</StrongNameKeyId>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <AssemblyName>System.ServiceModel.Federation</AssemblyName>
+    <RootNamespace>System.ServiceModel.Federation</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\System.ServiceModel.Primitives\ref\System.ServiceModel.Primitives.Ref.csproj" />
+    <ProjectReference Include="..\..\System.ServiceModel.Security\ref\System.ServiceModel.Security.Ref.csproj" />
+  </ItemGroup>
+</Project>
